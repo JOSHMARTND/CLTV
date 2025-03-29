@@ -14,7 +14,7 @@ import pandas as pd
 import joblib
 
 # Load the trained model
-model = joblib.load("model/clv_model.pkl")
+model = joblib.load("clv_model.pkl")
 
 st.title("Customer Lifetime Value (CLV) Prediction")
 st.write("Upload your dataset to analyze customer RFM values and predict CLV.")
